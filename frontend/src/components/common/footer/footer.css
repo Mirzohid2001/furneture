@@ -1,0 +1,51 @@
+.footerContact {
+    background-color: #27ae60;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.footerContact h1 {
+    font-size: 40px;
+}
+
+footer {
+    background-color: #1d2636;
+    padding: 50px 0;
+    color: #fff;
+}
+
+footer div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.legal {
+    text-align: center;
+    padding: 20px;
+    background: #1d2636;
+    color: rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.legal a {
+    color: #f7f9fc;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.footer-link {
+    color: #f7f9fc90;
+    display: block;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+@media screen and (max-width: 500px) {
+    footer .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer div {
+        flex-wrap: wrap;
+    }
+}
